@@ -1,10 +1,10 @@
 #include<stdio.h>
 /*
-    com1
+	com1
 */
-void a(){char*s="#include<stdio.h>%cint main(){char*a=%c%s%c;printf(a,10,34,a,34);}";printf(s,10,34,s,34);};
+void a(){char*s="#include<stdio.h>%3$c%5$c*%3$c%2$ccom1%3$c*%5$c%3$cvoid a(){char*s=%4$c%1$s%4$c;printf(s,s,9,10,34,47);}%3$cint main(){%3$c%5$c*%3$c%2$ccom2%3$c*%5$c%3$ca();}";printf(s,s,9,10,34,47);}
 int main(){
 /*
-    com2
+	com2
 */
-    a();}
+a();}
